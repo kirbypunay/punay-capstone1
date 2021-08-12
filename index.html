@@ -25,33 +25,29 @@
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link" href="#project">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Contact Me</a>
+		        <a class="nav-link" href="#contact">Contact Me</a>
 		      </li>
 		    </ul>
 		  </div>
 		</nav>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1>Welcome!</h1>
-					<h2>The name's Kirby</h2>
-					<h3>Full-Stack Web Developer</h3>
-					<h4>Come and Explore with me the wonders of Web Design</h4>
-				</div>
-			</div>
+		<div class="jumbotron jumbotron-fluid" id="landing">
+		  <div class="container">
+		    <h1 class="display-4">Hello, I'm Kirby</h1>
+		    <p class="lead">Full-Stack Web Developer</p>
+		  </div>
 		</div>
 
-		<div class="container">
+		<div class="container" id="about">
 			<div class="row">
-				<div class="col-12">
-					<img src="./image/me.jpg">
+				<div class="col-12 col-md-6">
+					<img src="./image/me.jpg" class="pic">
 				</div>
 				<div>
 					<h1>Kirby Punay</h1>
@@ -62,40 +58,51 @@
 						My name is Kirby Punay. I am a graduate of San Beda College Alabang with a Degree in Business Management Major in Entrepreneurship. After graduating I worked in Teletech as a Technical Support Representative for a few years before leaving and going back to school for further studies. After a brief stint in school I decided to work again. I joined Convergys as a Customer Support Representative for a year before joining my current employer, Synchrony Financial.
 					</p>
 					<p>
-						Due to being tired of my work and stagnant repetitive life in the BPO industry I decided to take programming lessons in the hopes of making a carerr shift and get a new path in life. My siblings were also programmers with one also being an alumnus of Zuitt. This setup emboldens me and helps me decide to also take programming lessons.
+						Due to being tired of my work and stagnant, repetitive life in the BPO industry I decided to take programming lessons in the hopes of making a carerr shift and get a new path in life. My siblings were also programmers with one also being an alumnus of Zuitt. This much exposure to the field made the decision to swith that much easier for me.
+					</p>
+					<p>
+						As you may now have realized, I am new to this industry, and as such my experience is very much limited. But just like in other fields, we always start from the bottom and we build on it as we go along and experience the field. I hope that oneday I could become one of the best programmers in the industry. However I can not do this on my own, I will need your help to succeed. Will you help me, help you?
 					</p>
 				</div>
 			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="card">
-					  <div class="card-body">
-					    <h5 class="card-title">Capstone 1</h5>
-					    <a href="https://gitlab.com/kirby-punay-batch-125/s13-14/capstone-1" class="card-link">View</a>
-					  </div>
-					</div>
-					<div class="card">
-					  <div class="card-body">
-					    <img src="./image/under.jpg">
-					    <h5 class="card-title">Under Construction</h5>
-					    <a href="https://www.facebook.com/kirby.punay" class="card-link">View</a>
-					  </div>
-					</div>
-					<div class="card">
-					  <div class="card-body">
-					  	<img src="./image/comingsoon.png">
-					    <h5 class="card-title">Coming Soon</h5>
-					    <a href="https://www.facebook.com/kirby.punay" class="card-link">Card link</a>
-					  </div>
-					</div>
-				</div>
+			<div class="button">
+				<a href="#" id="button" class="btn col-12 col-md-3 btn-dark">Home</a>
+				<a href="#project" id="button" class="btn col-12 col-md-3 btn-dark">Project</a>
+				<a href="#contact" id="button" class="btn col-12 col-md-3 btn-dark"> Contact me!</a>
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container" id="project">
+			<div class="card-group">
+			  <div class="card">
+			    <img class="card-img-top" src="./image/sample.png" alt="Card image cap">
+			    <div class="card-body">
+			     <!--  <h5 class="card-title">Capstone 1</h5> -->
+			      <a href="https://gitlab.com/kirby-punay-batch-125/s13-14/capstone-1" class="card-link">Capstone 1</a>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="./image/sample.png" alt="Card image cap">
+			    <div class="card-body">
+			      <a href="https://www.facebook.com/kirby.punay" class="card-link">Get a Glimpse</a>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="./image/sample.png" alt="Card image cap">
+			    <div class="card-body">
+			      <a href="https://www.facebook.com/kirby.punay" class="card-link">Get a Glimpse</a>
+			    </div>
+			  </div>
+			</div>
+			<div class="button">
+				<a href="#" id="button" class="btn col-12 col-md-3 btn-dark">Home</a>
+				<a href="#about" id="button" class="btn col-12 col-md-3 btn-dark">About Me</a>
+				<a href="#contact" id="button" class="btn col-12 col-md-3 btn-dark"> Contact me!</a>
+			</div>
+		</div>
+
+		<div>
+		<div class="container map">
 			<div class="row">
 				<div class="col-12">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d683.1140343238403!2d120.96941349504685!3d14.411216256373184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3e71d4d2a6b%3A0x93b440b75bb2702c!2sSaint%20Magdalene%20St!5e0!3m2!1sen!2sph!4v1628666095581!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -103,9 +110,10 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container" id="contact">
 			<div class="row">
 				<div class="col-12">
+					<h2>Let's Talk</h2>
 					<form>
 					  <div class="form-group">
 					    <label for="exampleInputEmail1">Email address</label>
@@ -113,16 +121,21 @@
 					  	</div>
 					  	
 					    <div class="form-group">
-					    	<label for="exampleFormControlTextarea1">Message me</label>
 					    	<div class="form-group">
     						<label for="InputName">Name</label>
    							<input type="text" class="form-control" id="InputName" placeholder="Enter name">
   							</div>
+  							<h4>Message</h4>
 					    	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					    	<button type="submit" class="btn btn-primary">Submit</button>
 					  	</div>
 					  </div>
-					  <button type="submit" class="btn btn-primary">Submit</button>
 					</form>
+				</div>
+				<div class="button">
+					<a href="#" id="button" class="btn col-12 col-md-3 btn-dark">Home</a>
+					<a href="#about" id="button" class="btn col-12 col-md-3 btn-dark">About Me</a>
+					<a href="#project" id="button" class="btn col-12 col-md-3 btn-dark">Projects</a>
 				</div>
 			</div>
 		</div>
